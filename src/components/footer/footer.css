@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10em 10em;
+}
+
+.dab{
+    color: #c4a747;
+    font-family: 'Arima Madurai', cursive;
+    font-weight:900;
+}
+
+.social{
+    color:#C0C0C0;
+    font-size: 20px;
+}
+
+.tele{
+    margin-left:1em;
+    margin-right:1em;
+}

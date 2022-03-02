@@ -1,0 +1,51 @@
+.footercomp{
+    background: linear-gradient(to top left,#141414,#202020 );
+    padding-bottom: 122px;
+}
+
+.footermarg{
+    margin-left:10em;
+    margin-right:10em;
+}
+
+.footerhead{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.socialicon{
+    color:#fff;
+}
+
+.footerinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainfootertitle{
+    color:#fff;
+    font-weight: 500;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 10px;
+    margin-top:30px;
+}
+
+.mainfooterdesc{
+    font-family: 'Arima Madurai', cursive;
+    color:#fff;
+    font-size: 8px;
+}
+
+.footerflex p{
+    width: 50%;
+}
+
+@media screen and (max-width:500px) {
+    .footermarg{
+        margin-left:3em;
+        margin-right:3em;
+    }
+}

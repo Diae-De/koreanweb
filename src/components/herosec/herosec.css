@@ -1,0 +1,100 @@
+.hero{
+    margin-left:10em;
+}
+
+.para{
+    color: #c4a747;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size:5em;
+    width:35%;
+    margin-top: 1em;
+}
+
+.desc{
+    font-family: 'Arima Madurai', cursive;
+    color:#C0C0C0;
+    width:20%;
+    margin-top: 25px;
+    font-weight: lighter;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.icons:hover .arrow{
+    margin-left: 0px;
+}
+
+.icons:hover .goto{
+    color: #c4a747;
+}
+
+.circle{
+    font-size: 5em;
+    color: #c4a747;
+}
+
+.arrow{
+    margin-left: -20px;
+    margin-top: -10px;
+    font-size: 2em;
+    color: #c4a747;
+    transition: all 0.3s ease-in;
+    animation-name: arrowmove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowmove {
+    0%{transform: translateX(0%);}
+    25%{transform: translateX(20%);}
+    50%{transform: translateX(0%);}
+    75%{transform: translateX(40%);}
+    100%{transform: translateX(0%);}
+}
+
+.goto{
+    margin-left: 12px;
+    margin-top: -13px;
+    font-family: 'Arima Madurai', cursive;
+    color:#C0C0C0;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+@media screen and (max-width:1200px) {
+    .para{
+        font-size:4em;
+        width:50%;
+        margin-top: 1em;
+    }
+
+    .desc{
+        width:35%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .para{
+        font-size:4em;
+        width:100%;
+        margin-top: 1em;
+    }
+
+    .desc{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero{
+        margin-left:3em;
+    }
+    .para{
+        font-size:3em;
+    }
+}
