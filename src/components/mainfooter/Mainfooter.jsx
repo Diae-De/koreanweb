@@ -9,7 +9,7 @@ export default function Mainfooter({footdata}) {
         <div className="footercomp">
             <div className="footermarg">
                 <div className="footerhead">
-                <div className="logo">HERA</div> 
+                <div className="logo">DEAI</div> 
                 <div className="socialicon">
                     <AiOutlineInstagram/>
                     <FaTelegramPlane className="tele"/>

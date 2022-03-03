@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="overlay"></div>
         <div className="navbar">
           <Fade top>
-            <div className="logo">HERA</div> 
+            <div className="logo">DEAI</div> 
             <div className="navigation">
                 <li>HERA STORY</li>
                 <li>MAKEUP</li>
